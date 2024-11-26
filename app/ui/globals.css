@@ -1,0 +1,23 @@
+:root {
+    --bg: rgb(19, 19, 19);
+    --bgSoft: rgb(31, 31, 31);
+    --bgHover: rgb(48, 48, 48);
+    --text: white;
+    --textSoft: rgb(197, 197, 197);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
