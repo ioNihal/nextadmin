@@ -1,11 +1,12 @@
-import styles from "@/app/ui/dashboard/products/singleProduct/singleProduct.module.css"
+import Image from "next/image"
+import styles from "../../../ui/dashboard/products/singleProduct/singleProduct.module.css"
 
 const SingleProductPage = () => {
     return (
         <div className={styles.container}>
             <div className={styles.infoContainer}>
                 <div className={styles.imgContainer}>
-                    <Image src="/noavatar.png" alt="userAvatar" fill />
+                    <Image src="/noproduct.jpg" alt="product" fill />
                 </div>
                 Iphone
             </div>
@@ -21,7 +22,7 @@ const SingleProductPage = () => {
                     <input type="text" name="color" placeholder="red" />
                     <label>Size</label>
                     <input type="text" name="size" placeholder="New York" />
-                    <label>Is Admin?</label>
+                    <label>Category</label>
                     <select id="cat" name="cat">
                         <option value="kitchen">Kitchen</option>
                         <option value="computers">Computers</option>

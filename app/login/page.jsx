@@ -1,16 +1,12 @@
-import styles from "@/app/ui/login/loginPage.module.css"
+import styles from "../ui/login/loginPage.module.css";
+import LoginForm from "../ui/login/loginForm/loginForm";
 
 const LoginPage = () => {
     return (
-        <div className={styles.container} >
-            <form action="" className={styles.form}>
-                <h1>Logins</h1>
-                <input type="text" placeholder="username" />
-                <input type="password" placeholder="password" />
-                <button type="submit">Login</button>
-            </form>
+        <div className={styles.container}>
+            <LoginForm />
         </div>
-    )
-}
+    );
+};
 
-export default LoginPage
+export default LoginPage;
